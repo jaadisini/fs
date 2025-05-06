@@ -10,7 +10,7 @@ from logging.handlers import RotatingFileHandler
 
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7736892583:AAHPSAILxq5dt6rApsCdkaq5TieGf__Ykr8")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7594999229:AAHLvo2SISESSSxSRK3oT-ckvzYdDVah0DI")
 
 #Your API ID from my.telegram.org
 APP_ID = int(os.environ.get("APP_ID", "24773720"))
@@ -39,10 +39,10 @@ TUT_VID = os.environ.get("TUT_VID","https://t.me/The_How_To_Open/13")
 
 
 #force sub channel id, if you want enable force sub
-FORCESUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002282577591"))
-FORCESUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002350008026"))
-FORCESUB_CHANNEL3 = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002319746161"))
-FORCESUB_CHANNEL4 = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002406379151"))
+FORCESUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002350008026"))
+FORCESUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL", None))
+FORCESUB_CHANNEL3 = int(os.environ.get("FORCE_SUB_CHANNEL", None))
+FORCESUB_CHANNEL4 = int(os.environ.get("FORCE_SUB_CHANNEL", None))
 
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
