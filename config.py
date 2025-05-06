@@ -40,9 +40,9 @@ TUT_VID = os.environ.get("TUT_VID","https://t.me/The_How_To_Open/13")
 
 #force sub channel id, if you want enable force sub
 FORCESUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002350008026"))
-FORCESUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL", None))
-FORCESUB_CHANNEL3 = int(os.environ.get("FORCE_SUB_CHANNEL", None))
-FORCESUB_CHANNEL4 = int(os.environ.get("FORCE_SUB_CHANNEL", None))
+FORCESUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL"))
+FORCESUB_CHANNEL3 = int(os.environ.get("FORCE_SUB_CHANNEL"))
+FORCESUB_CHANNEL4 = int(os.environ.get("FORCE_SUB_CHANNEL"))
 
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
